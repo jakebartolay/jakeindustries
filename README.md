@@ -23,6 +23,6 @@ This website is coded by BEN DEV. This is based on the Stark Industries company 
 
 ## 📫 Connect with me:
 <p align="left">
-<a href = "https://www.facebook.com/customjake"><img src="https://img.icons8.com/?size=512&id=uLWV5A9vXIPu&format=png" height="50px" width="60px"/></a>
+<a href = "https://www.facebook.com/customjake"><img src="https://img.icons8.com/?size=512&id=uLWV5A9vXIPu&format=png" height="50px" width="50px"/></a>
 <a href = "https://github.com/jakebartolay/"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
 </p>
