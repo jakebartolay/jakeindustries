@@ -3,7 +3,7 @@ This website is coded by BEN DEV. This is based on the Stark Industries company 
 
 ## 💻 To Visit the site, click the link below
 
- https://crischoy23.github.io/DUELIST/
+ https://jakebartolay.github.io/jakeindustries/
 
 <b>Static Landing Page Web Design
 
