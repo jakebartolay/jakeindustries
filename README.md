@@ -1,4 +1,4 @@
-# JakeIndustries Website(fictional-educational purposes only)
+# Jake Industries Website(fictional-educational purposes only)
 This website is coded by BEN DEV. This is based on the Stark Industries company and I made it so that I could have experience with a responsive website.
 
 ## 💻 To Visit the site, click the link below
