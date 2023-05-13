@@ -18,7 +18,7 @@ This website is coded by BEN DEV. This is based on the Stark Industries company 
 
 - 🌱 I’m currently learning **Frontend and Backend Web Development**
 
-- 👨‍💻 This is my first mini-project in KodeGo Bootcamp.
+- 🤵‍♂️💻 This is my first mini-project in KodeGo Bootcamp.
 
 
 ## 📫 Connect with me:
