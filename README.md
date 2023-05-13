@@ -14,7 +14,7 @@ This website is coded by BEN DEV. This is based on the Stark Industries company 
     
 </p>
 
-## 👩 AboutThe Project
+## 👨‍💻 About The Project
 
 - 🌱 I’m currently learning **Frontend and Backend Web Development**
 
