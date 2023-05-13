@@ -1,4 +1,4 @@
-# JAKEINDUSTRIES Website(fictional-educational purposes only)
+# JAKE INDUSTRIES Website(fictional-educational purposes only)
 This website is coded by BEN DEV. This is based on the stark industries company and I made it so that I could have experience with a responsive website.
 
 ## 🚀 Languages and Tools Used:
