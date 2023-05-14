@@ -60,7 +60,7 @@
 
 .capabilitiesTile {
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   max-height: 460px;
   min-height: 100px;
   overflow: hidden;
@@ -187,7 +187,14 @@ a .capabilitiesImg:hover{
 
 @media (min-width: 768px){
   .capabilitiesTile {
-      height: 50vh;
+      height: 67vh;
+  }
+}
+
+
+@media (min-width: 667px){
+  .capabilitiesTile {
+      height: 67vh;
   }
 }
 
