@@ -78,6 +78,10 @@
   text-decoration: none !important;
 }
 
+.capabilitiesTile:hover .capabilitiesImg:before,.capabilitiesTile:focus .capabilitiesImg:before {
+  display: block
+}
+
 .capabilitiesTile:hover .capabilitiesImg, .capabilitiesTile:focus .capabilitiesImg {
   transform: scale(1.1);
 }
@@ -102,10 +106,31 @@
   background-position: center;
   background-origin: content-box;
   text-decoration: none;
-  transition: all 2s;
+  transition: all 1s;
   position: absolute;
   z-index: 1;
 }
+
+.capabilitiesImg::before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.60)
+}
+
+a .capabilitiesImg:hover{
+  background-color: gray;
+}
+
+.carousel-item-info-wrapper {
+  position: absolute;
+  bottom: 10%;
+  top: auto!important;
+  }
 
 .capabilitiesText {
   margin: auto;
