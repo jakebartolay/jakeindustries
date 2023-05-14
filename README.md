@@ -1,7 +1,7 @@
 ![ResponsiveScreen](https://github.com/jakebartolay/jakeindustries/assets/68772728/b6f2d693-711c-4e18-ba0f-0e8c183850ff)
 
 
-# Jake Industries Website(fictional-educational purposes only)
+# JAKEINDUSTRIES Website(fictional-educational purposes only)
 This website is coded by BEN DEV. This is based on the Stark Industries company and I made it so that I could have experience with a responsive website.
 
 ## 💻 To Visit the site, click the link below
