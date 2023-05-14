@@ -89,8 +89,9 @@
 .bannerTextShortTitle {
   font-family: 'DIN 2014 W01 Light','Calibri','Helvetica Nue',Arial,sans-serif;
   color: #fff;
-  font-size: 2.5rem;
-  line-height: 2.9375rem
+  font-size: 4rem;
+  line-height: 2.9375rem;
+  font-weight: 300;
 }
 
 .bannerTextLongTitle {
@@ -194,6 +195,9 @@ a .capabilitiesImg:hover{
     #section1{
         background-size: cover;
         background-repeat: no-repeat;
+    }
+    .bannerTextShortTitle{
+      font-size: 2.5rem;
     }
 }
 
