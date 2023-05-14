@@ -1,4 +1,4 @@
-<img src="https://github.com/jakebartolay/jakeindustries/assets/68772728/b6f2d693-711c-4e18-ba0f-0e8c183850ff" width="500">
+<img src="https://github.com/jakebartolay/jakeindustries/assets/68772728/b6f2d693-711c-4e18-ba0f-0e8c183850ff" width="1000">
 
 
 # JAKEINDUSTRIES Website(fictional-educational purposes only)
