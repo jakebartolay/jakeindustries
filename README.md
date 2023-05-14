@@ -1,4 +1,5 @@
-![ResponsiveScreenMockupTemplate](https://github.com/jakebartolay/jakeindustries/assets/68772728/3e32e958-4cde-43af-929a-bfb369ff96f1)
+![ResponsiveScreenMockupTemplate-removebg-preview](https://github.com/jakebartolay/jakeindustries/assets/68772728/a9afa0f1-8245-484e-aa8d-44598b636076)
+
 
 # Jake Industries Website(fictional-educational purposes only)
 This website is coded by BEN DEV. This is based on the Stark Industries company and I made it so that I could have experience with a responsive website.
