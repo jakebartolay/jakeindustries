@@ -16,7 +16,7 @@ This website is coded by BEN DEV. This is based on the Stark Industries company 
     <a> <img src="https://img.icons8.com/color/48/000000/css3.png" height="50px" width="60px"/> </a>
     <a> <img src="https://img.icons8.com/color/48/000000/git.png" height="50px" width="60px"/> </a> 
     <a> <img src="https://cdn.iconscout.com/icon/free/png-512/figma-682083.png"  height="50px" width="60px"/> </a> 
-        <a> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"  height="50px" width="60px"/> </a> 
+    <a> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"  height="50px" width="60px"/> </a> 
     
     
 </p>
