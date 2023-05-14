@@ -1,4 +1,4 @@
-![ResponsiveScreenMockupTemplate-removebg-preview](https://github.com/jakebartolay/jakeindustries/assets/68772728/a9afa0f1-8245-484e-aa8d-44598b636076)
+![ResponsiveScreenMockupTemplate-removebg-preview (1)](https://github.com/jakebartolay/jakeindustries/assets/68772728/3b15e97e-3c7b-48d1-a1aa-0a1f03c8f31c)
 
 
 # Jake Industries Website(fictional-educational purposes only)
