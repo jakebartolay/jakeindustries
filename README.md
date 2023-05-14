@@ -3,7 +3,7 @@ This website is coded by BEN DEV. This is based on the Stark Industries company 
 
 ## 💻 To Visit the site, click the link below
 
- https://jakebartolay.github.io/jakeindustries/
+[ https://jakebartolay.github.io/jakeindustries/](https://jakeindustries.vercel.app/)
 
 <b>Static Landing Page Web Design
 
