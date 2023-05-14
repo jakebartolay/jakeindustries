@@ -1,4 +1,4 @@
-![JAKEINDUSTRIES WEBSITE]([url_of_image](https://drive.google.com/drive/u/0/folders/1GbILp36gIZqRDUPuyE8hVkZNukDWeMz9))
+![JAKEINDUSTRIES WEBSITE](https://drive.google.com/drive/u/0/folders/1GbILp36gIZqRDUPuyE8hVkZNukDWeMz9)
 # Jake Industries Website(fictional-educational purposes only)
 This website is coded by BEN DEV. This is based on the Stark Industries company and I made it so that I could have experience with a responsive website.
 
