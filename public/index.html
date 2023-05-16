@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,474 +12,579 @@
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="js/index.js" />
     <!--CSS BOOTSTRAP EXTERNAL LINK-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <!--JAVASCRIPT BOOTSTRAP-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header id="header" class="sticky-top header-scrolled">
-        <div class="container-sm">
-            <nav id="scrollpy-navbar" class="navbar navbar-expand-lg bg-white">
-                <div class="container">
-                    <a class="navbar-brand" href="#">
-                        <img src="img/logo.png" alt="Logo" width="200px"
-                            class="img-fluid d-inline-block align-text-top" />
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbar">
-                        <ul class="nav navbar-nav fw-bold">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#whatwedo">What we do</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#services">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#aboutus">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contactus">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
+      <div class="container-sm">
+        <nav
+          id="scrollpy-navbar"
+          class="navbar navbar-expand-lg navbar-light bg-white"
+        >
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img
+                src="img/logo.png"
+                alt="Logo"
+                width="200px"
+                class="img-fluid d-inline-block align-text-top"
+              />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="offcanvas offcanvas-end position-none" tabindex="-1" id="navbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-            </nav>
-        </div>
+                <div class="offcanvas-body justify-content-center">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#home"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#whatwedo">What we do</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#aboutus">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contactus">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
-    <div data-bs-spy="scroll" data-bs-target="#scrollpy-navbar" data-bs-smooth-scroll="true"
-        class="scrollspy-example bg-body-tertiary" tabindex="1">
-        <div id="section1">
-            <div class="container-xxl">
-                <div class="pt-md-5 pb-5 position-absolute bottom-0 start-0">
-                    <div class="container-fluid container-xxxl" id="home">
-                        <div class="row">
-                            <div class="col-12 px-md-5">
-                                <div class="column-card">
-                                    <div class="row">
-                                        <div class="bannerTextShortTitle col-12 pt-2 pb-1 pb-md-2 pl-md-5 d-block">
-                                            <p><span>Latest Sustainability Report</span></p>
-                                        </div>
-                                        <div class="bannerTextLongTitle d-none d-md-block">
-                                            <p><span class="display-6">Explore our roadmap for building a more sustainable future</span></p>
-                                        </div>
-                                        <div>
-                                            <a class="actionButton" href="#">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="section2">
-            <div class="container-xxl">
-                <div class="pt-md-5 pb-5">
-                    <div class="container-fluid container-xxxl" id="whatwedo">
-                        <div class="row">
-                            <div class="col-12 px-md-5">
-                                <div class="column">
-                                    <div class="row">
-                                        <div class="col-lg-12 mt-5">
-                                            <div class="container-fluid">
-                                                <h6 class="fw-semibold">[01] WHAT WE DO ___</h6>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-lg-6 d-flex flex-column align-items-start mt-3">
-                                            <div class="mb-3 mt-5 w-75">
-                                                <h2>
-                                                    <p>We deliver innovative solutions to the world's toughest
-                                                        challenges.<br>
-                                                    </p>
-                                                </h2>
-                                            </div>
-                                            <div class="mb-3 w-75">
-                                            </div>
-                                            <a class="actionButton" href="#">Learn More</a>
-                                        </div>
-                                        <div class="col-12 col-lg-6 mt-5">
-                                            <div id="carouselExampleCaptions" class="carousel slide"
-                                                data-bs-ride="carousel">
-                                                <div class="carousel-inner">
-                                                    <div class="carousel-item active" data-bs-interval="10000">
-                                                        <img src="img/firefighting-intelligence-masthead-1920.jpg.pc-adaptive.1280.medium.jpg"
-                                                            class="d-block w-100" alt="firefighting intelligence">
-                                                        <div class="carousel-caption d-none d-md-block">
-                                                            <hr>
-                                                            <h5>Firefighting Intelligence</h5>
-                                                            <p>Using AI to help wildland firefighters stay ahead of
-                                                                ready</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="carousel-item" data-bs-interval="2000">
-                                                        <img src="img/FirstF-16Block70.jpg.pc-adaptive.1280.medium.jpg"
-                                                            class="d-block w-100" alt="FirstF-16">
-                                                        <div class="carousel-caption d-none d-md-block">
-                                                            <hr>
-                                                            <h5>Missions, Milestones & Achievements</h5>
-                                                            <p>15 Highlights From First Quarter 2023</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="https://image.cnbcfm.com/api/v1/image/105395778-1534253992036hssw.jpg?v=1534254284&w=740&h=416&ffmt=webp&vtcrop=y"
-                                                            class="d-block w-100" alt="future hypersonic flight">
-                                                        <div class="carousel-caption d-none d-md-block">
-                                                            <hr>
-                                                            <h5>Hypersonics</h5>
-                                                            <p>These systems are a game-changer for national security.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <button class="carousel-control-prev" type="button"
-                                                    data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                    <span class="visually-hidden">Previous</span>
-                                                </button>
-                                                <button class="carousel-control-next" type="button"
-                                                    data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                    <span class="visually-hidden">Next</span>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="section3">
-            <div class="container-xxl">
-                <div class="mt-md-5 pt-md-5 pb-5">
-                    <div class="container-fluid container-xxxl" id="services">
-                        <div class="row">
-                            <div class="col-12 px-md-5">
-                                <div class="column-card">
-                                    <div class="row">
-                                        <div class="col-lg-12 mt-5">
-                                            <div class="container-fluid">
-                                                <h6 class="fw-semibold">[02] SERVICES ___</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12 text-center mt-5 mb-5">
-                                            <div class="container-fluid">
-                                                <h3>We deliver unparalleled OneJI solutions.&nbsp;</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12 d-flex flex-column flex-md-row pl-0 pr-0 pb-0 pb-md-5">
-                                            <a class="text-decoration-none capabilitiesTile" href="#">
-                                                <div class="capabilitiesTile">
-                                                    <div class="capabilitiesText">
-                                                        <h2>Aeronautics</h2>
-                                                    </div>
-                                                    <div class="capabilitiesArrow d-none d-md-block"></div>
-                                                    <div class="capabilitiesImg"
-                                                        style="background-image: url('img/homeCapabilitiesAir.jpg');">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="text-decoration-none capabilitiesTile" href="#">
-                                                <div class="capabilitiesTile">
-                                                    <div class="capabilitiesText">
-                                                        <h2>Missiles and Fire Control</h2>
-                                                    </div>
-                                                    <div class="capabilitiesArrow d-none d-md-block"></div>
-                                                    <div class="capabilitiesImg"
-                                                        style="background-image: url('img/homeCapabilitiesLand.jpg');">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="text-decoration-none capabilitiesTile" href="#">
-                                                <div class="capabilitiesTile">
-                                                    <div class="capabilitiesText">
-                                                        <h2>Rotary and Mission Systems</h2>
-                                                    </div>
-                                                    <div class="capabilitiesArrow d-none d-md-block"></div>
-                                                    <div class="capabilitiesImg"
-                                                        style="background-image: url('img/homeCapabilitiesSea.jpg');">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a class="text-decoration-none capabilitiesTile" href="#">
-                                                <div class="capabilitiesTile">
-                                                    <div class="capabilitiesText">
-                                                        <h2>Space</h2>
-                                                    </div>
-                                                    <div class="capabilitiesArrow d-none d-md-block"></div>
-                                                    <div class="capabilitiesImg"
-                                                        style="background-image: url('img/homeCapabilitiesSpace.jpg');">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="column col-sm-12 d-none d-sm-block d-md-none d-md-block col-lg-12 d-none d-lg-block d-xl-non">
-                                            <div class="row">
-                                                <div class="col-12 col-lg-3 mt-5">
-                                                    <div class="article-top text">
-                                                        <div class="cnt_paragraph ">
-                                                            <a href="#"><b>Aeronautics</b></a>,
-                                                            with approximately $26.9 billion in 2022 sales which
-                                                            includes
-                                                            tactical aircraft, airlift, sustainment and
-                                                            aeronautical
-                                                            research and development lines of business.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-lg-3 mt-5 ">
-                                                    <div class="article-top text">
-                                                        <div class="cnt_paragraph ">
-                                                            <a href="#"><b>Missiles
-                                                                    and Fire Control</b></a>, with approximately
-                                                            $11.3
-                                                            billion in 2022 sales that includes the Terminal
-                                                            High Altitude
-                                                            Area Defense System and PAC-3 Missiles as some of
-                                                            its
-                                                            high-profile programs.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-lg-3 mt-5 ">
-                                                    <div class="article-top text">
-                                                        <div class="cnt_paragraph ">
-                                                            <a href="#"><b>Rotary
-                                                                    and Mission Systems</b></a>,&nbsp;with
-                                                            approximately
-                                                            $16.1 billion in 2022 sales, which includes Stark
-                                                            helicopters, maritime systems, sensors, radar
-                                                            systems, command
-                                                            and control, combat simulation and training,
-                                                            undersea systems
-                                                            and full-spectrum cyber capabilities.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-lg-3 mt-5 ">
-                                                    <div class="article-top text">
-                                                        <div class="cnt_paragraph ">
-                                                            <a href="#"><b>Space</b></a>,
-                                                            with approximately $11.5 billion in 2022 sales which
-                                                            includes
-                                                            development of commercial and government satellites,
-                                                            strategic
-                                                            missiles, mission solutions and the deep space
-                                                            exploration lines
-                                                            of business.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="section4">
-            <div class="container-xxl">
-                <div class=" mt-md-5 pt-md-5 pb-5">
-                    <div class="container-fluid container-xxxl" id="aboutus">
-                        <div class="row">
-                            <div class="col-12 px-md-5">
-                                <div class="column-card">
-                                    <div class="row">
-                                        <div class="col-lg-12 mt-5">
-                                            <div class="container-fluid">
-                                                <h6 class="fw-semibold">[03] ABOUT US ___</h6>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-lg-6 mt-5">
-                                            <div class="container">
-                                                <h2>Where We Are</h2>
-                                                <p><span class="fw-bold">Employees:</span> Approximately 116,000
-                                                    employees
-                                                    in
-                                                    the Philippines and internationally</p>
 
-                                                <p><span class="fw-bold">Operations:</span> 370+ facilities and 13,300
-                                                    active
-                                                    suppliers, including suppliers in every PH. state and more than 890
-                                                    suppliers in over 52 countries outside the PH.</p>
-
-                                                <p><span class="fw-bold">Headquarters:</span><br>
-                                                    Jake Industries Corporation<br>
-                                                    Topaz St. Rockville 2, <br>
-                                                    San Bartolome, Novaliches, Quezon City, PH.<br>
-                                                    (301) 897-6000
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-lg-6 mt-5">
-                                            <div class="container">
-                                                <h2>Customer Base</h2>
-                                                <p>As a global security and aerospace company, the majority of Jake
-                                                    Industries
-                                                    business is with the P.H. Department of Defense and P.H.
-                                                    federal government agencies. In addition, Stark (a Jake
-                                                    Industries
-                                                    Company) provides military and rotary-wing aircraft to all five
-                                                    branches
-                                                    of the P.H. armed forces along with military services and commercial
-                                                    operators in 40 nations. The remaining portion of Lockheed Martin's
-                                                    business is comprised of international government and commercial
-                                                    sales
-                                                    of products, services and platforms.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    <content
+      data-bs-spy="scroll"
+      data-bs-target="#scrollpy-navbar"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example bg-body-tertiary"
+      tabindex="1"
+    >
+      <div id="section1">
+        <div class="container-xxl">
+          <div class="pt-md-5 pb-5 position-absolute bottom-0 start-0">
+            <div class="container-fluid container-xxxl" id="home">
+              <div class="row">
+                <div class="col-12 px-md-5">
+                  <div class="column-card">
+                    <div class="row">
+                      <div
+                        class="bannerTextShortTitle col-12 pt-2 pb-1 pb-md-2 pl-md-5 d-block"
+                      >
+                        <p><span>Latest Sustainability Report</span></p>
+                      </div>
+                      <div class="bannerTextLongTitle d-none d-md-block">
+                        <p>
+                          <span class="display-6"
+                            >Explore our roadmap for building a more sustainable
+                            future</span
+                          >
+                        </p>
+                      </div>
+                      <div>
+                        <a class="actionButton" href="#">Learn More</a>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-        <div id="section5">
-            <div class="container-xxl">
-                <div class="pt-md-5 pb-5">
-                    <div class="container-fluid container-xxxl" id="contactus">
+      </div>
+      <div id="section2">
+        <div class="container-xxl">
+          <div class="pt-md-5 pb-5">
+            <div class="container-fluid container-xxxl" id="whatwedo">
+              <div class="row">
+                <div class="col-12 px-md-5">
+                  <div class="column">
+                    <div class="row">
+                      <div class="col-lg-12 mt-5">
+                        <div class="container-fluid">
+                          <h6 class="fw-semibold">[01] WHAT WE DO ___</h6>
+                        </div>
+                      </div>
+                      <div
+                        class="col-12 col-lg-6 d-flex flex-column align-items-start mt-3"
+                      >
+                        <div class="mb-3 mt-5 pt-5 w-75">
+                          <h2>
+                            <p>
+                              We deliver innovative solutions to the world's
+                              toughest challenges.<br />
+                            </p>
+                          </h2>
+                        </div>
+                        <div class="mb-3 w-75"></div>
+                        <a class="actionButton" href="#">Learn More</a>
+                      </div>
+                      <div class="col-12 col-lg-6 mt-5">
+                        <div
+                          id="carouselExampleCaptions"
+                          class="carousel slide"
+                          data-bs-ride="carousel"
+                        >
+                          <div class="carousel-inner">
+                            <div
+                              class="carousel-item active"
+                              data-bs-interval="10000"
+                            >
+                              <img
+                                src="img/Crotale_NG_P1220851.jpg"
+                                class="d-block w-100"
+                                alt="crotale Surface-to-air  intelligence"
+                              />
+                              <div
+                                class="carousel-caption d-none d-sm-block d-md-block"
+                              >
+                                <hr />
+                                <h5>Surface-to-air missile system</h5>
+                                <p>Crotale NG at the Iran Air Show, 2023</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <img
+                                src="img/FirstF-16Block70.jpg.pc-adaptive.1280.medium.jpg"
+                                class="d-block w-100"
+                                alt="FirstF-16"
+                              />
+                              <div
+                                class="carousel-caption d-none d-sm-block d-md-block"
+                              >
+                                <hr />
+                                <h5>Missions, Milestones & Achievements</h5>
+                                <p>15 Highlights From First Quarter 2023</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img
+                                src="https://image.cnbcfm.com/api/v1/image/105395778-1534253992036hssw.jpg?v=1534254284&w=740&h=416&ffmt=webp&vtcrop=y"
+                                class="d-block w-100"
+                                alt="future hypersonic flight"
+                              />
+                              <div
+                                class="carousel-caption d-none d-sm-block d-md-block"
+                              >
+                                <hr />
+                                <h5>Hypersonics</h5>
+                                <p>
+                                  These systems are a game-changer for national
+                                  security.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev"
+                          >
+                            <span
+                              class="carousel-control-prev-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next"
+                          >
+                            <span
+                              class="carousel-control-next-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section3">
+        <div class="container-xxl">
+          <div class="mt-md-5 pt-md-5 pb-5">
+            <div class="container-fluid container-xxxl" id="services">
+              <div class="row">
+                <div class="col-12 px-md-5">
+                  <div class="column-card">
+                    <div class="row">
+                      <div class="col-lg-12 mt-5">
+                        <div class="container-fluid">
+                          <h6 class="fw-semibold">[02] SERVICES ___</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 text-center mt-5 mb-5">
+                        <div class="container-fluid">
+                          <h2>We deliver unparalleled OneJI solutions.</h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div
+                        class="col-12 d-flex flex-column flex-md-row pl-0 pr-0 pb-0 pb-md-5"
+                      >
+                        <a
+                          class="text-decoration-none capabilitiesTile"
+                          href="#"
+                        >
+                          <div class="capabilitiesTile">
+                            <div class="capabilitiesText">
+                              <h2>Aeronautics</h2>
+                            </div>
+                            <div
+                              class="capabilitiesArrow d-none d-md-block"
+                            ></div>
+                            <div
+                              class="capabilitiesImg"
+                              style="
+                                background-image: url('img/homeCapabilitiesAir.jpg');
+                              "
+                            ></div>
+                          </div>
+                        </a>
+                        <a
+                          class="text-decoration-none capabilitiesTile"
+                          href="#"
+                        >
+                          <div class="capabilitiesTile">
+                            <div class="capabilitiesText">
+                              <h2>Missiles and Fire Control</h2>
+                            </div>
+                            <div
+                              class="capabilitiesArrow d-none d-md-block"
+                            ></div>
+                            <div
+                              class="capabilitiesImg"
+                              style="
+                                background-image: url('img/homeCapabilitiesLand.jpg');
+                              "
+                            ></div>
+                          </div>
+                        </a>
+                        <a
+                          class="text-decoration-none capabilitiesTile"
+                          href="#"
+                        >
+                          <div class="capabilitiesTile">
+                            <div class="capabilitiesText">
+                              <h2>Rotary and Mission Systems</h2>
+                            </div>
+                            <div
+                              class="capabilitiesArrow d-none d-md-block"
+                            ></div>
+                            <div
+                              class="capabilitiesImg"
+                              style="
+                                background-image: url('img/homeCapabilitiesSea.jpg');
+                              "
+                            ></div>
+                          </div>
+                        </a>
+                        <a
+                          class="text-decoration-none capabilitiesTile"
+                          href="#"
+                        >
+                          <div class="capabilitiesTile">
+                            <div class="capabilitiesText">
+                              <h2>Space</h2>
+                            </div>
+                            <div
+                              class="capabilitiesArrow d-none d-md-block"
+                            ></div>
+                            <div
+                              class="capabilitiesImg"
+                              style="
+                                background-image: url('img/homeCapabilitiesSpace.jpg');
+                              "
+                            ></div>
+                          </div>
+                        </a>
+                      </div>
+                      <div
+                        class="column col-sm-12 d-none d-sm-block d-md-none d-md-block col-lg-12 d-none d-lg-block d-xl-non"
+                      >
                         <div class="row">
-                            <div class="col-12 px-md-5">
-                                <div class="column-card">
-                                    <div class="row">
-                                        <div class="col-lg-12 mt-5">
-                                            <div class="container-fluid">
-                                                <h6 class="fw-semibold">[04] CONTACT US ___</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                          <div class="col-12 col-lg-3 mt-5">
+                            <div class="article-top text">
+                              <div class="cnt_paragraph">
+                                <a href="#"><b>Aeronautics</b></a
+                                >, with approximately $26.9 billion in 2022
+                                sales which includes tactical aircraft, airlift,
+                                sustainment and aeronautical research and
+                                development lines of business.
+                              </div>
                             </div>
+                          </div>
+                          <div class="col-12 col-lg-3 mt-5">
+                            <div class="article-top text">
+                              <div class="cnt_paragraph">
+                                <a href="#"><b>Missiles and Fire Control</b></a
+                                >, with approximately $11.3 billion in 2022
+                                sales that includes the Terminal High Altitude
+                                Area Defense System and PAC-3 Missiles as some
+                                of its high-profile programs.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-3 mt-5">
+                            <div class="article-top text">
+                              <div class="cnt_paragraph">
+                                <a href="#"><b>Rotary and Mission Systems</b></a
+                                >,&nbsp;with approximately $16.1 billion in 2022
+                                sales, which includes Stark helicopters,
+                                maritime systems, sensors, radar systems,
+                                command and control, combat simulation and
+                                training, undersea systems and full-spectrum
+                                cyber capabilities.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-3 mt-5">
+                            <div class="article-top text">
+                              <div class="cnt_paragraph">
+                                <a href="#"><b>Space</b></a
+                                >, with approximately $11.5 billion in 2022
+                                sales which includes development of commercial
+                                and government satellites, strategic missiles,
+                                mission solutions and the deep space exploration
+                                lines of business.
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <div id="section6" class="my-xxl-1">
+      </div>
+      <div id="section4">
+        <div class="container-xxl">
+          <div class="mt-md-5 pb-5">
+            <div class="container-fluid container-xxxl" id="aboutus">
+              <div class="row">
+                <div class="col-12 px-md-5">
+                  <div class="column-card">
+                    <div class="row">
+                      <div class="col-lg-12 mt-5">
+                        <div class="container-fluid">
+                          <h6 class="fw-semibold">[03] ABOUT US ___</h6>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-6 mt-5">
+                        <div class="container">
+                          <h2>Where We Are</h2>
+                          <p>
+                            <span class="fw-bold">Employees:</span>
+                            Approximately 116,000 employees in the Philippines
+                            and internationally
+                          </p>
+
+                          <p>
+                            <span class="fw-bold">Operations:</span> 370+
+                            facilities and 13,300 active suppliers, including
+                            suppliers in every PH. state and more than 890
+                            suppliers in over 52 countries outside the PH.
+                          </p>
+
+                          <p>
+                            <span class="fw-bold">Headquarters:</span><br />
+                            Jake Industries Corporation<br />
+                            Topaz St. Rockville 2, <br />
+                            San Bartolome, Novaliches, Quezon City, PH.<br />
+                            (301) 897-6000
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-6 mt-5">
+                        <div class="container">
+                          <h2>Customer Base</h2>
+                          <p>
+                            As a global security and aerospace company, the
+                            majority of Jake Industries business is with the
+                            P.H. Department of Defense and P.H. federal
+                            government agencies. In addition, Stark (a Jake
+                            Industries Company) provides military and
+                            rotary-wing aircraft to all five branches of the
+                            P.H. armed forces along with military services and
+                            commercial operators in 40 nations. The remaining
+                            portion of Lockheed Martin's business is comprised
+                            of international government and commercial sales of
+                            products, services and platforms.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section5">
+        <div class="container-xxl">
+          <div class="mt-md-5 pb-5">
+            <div class="container-fluid container-xxxl" id="contactus">
+              <div class="row">
+                <div class="col-12 px-md-5">
+                  <div class="column-card">
+                    <div class="row">
+                      <div class="col-lg-12 mt-5">
+                        <div class="container-fluid">
+                          <h6 class="fw-semibold">[04] CONTACT US ___</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </content>
+
+    <footer>
+      <div id="section6" class="my-xxl-1">
         <!--FOOTER SECTION-->
         <div class="container-fluid">
-            <div class="footer">
-                <!--ABOUT US AND CLICKABLE LINK AND DESIGN-->
-                <!--COPYRIGHTS-->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h4>FOOTER</h4>
-                    </div>
-                    <div class="col-lg-12">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets
-                        containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.
-                    </div>
-                    <div class="col-lg-12">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets
-                        containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.
-                    </div>
-                    <div class="col-lg-12">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets
-                        containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.
-                    </div>
-                    <div class="col-lg-12">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets
-                        containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.
-                    </div>
-                    <div class="col-lg-12">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets
-                        containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.
-                    </div>
-                    <div class="col-lg-12">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets
-                        containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.
-                    </div>
-                    <div class="col-lg-12">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets
-                        containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.
-                    </div>
-                </div>
+          <div class="footer">
+            <!--ABOUT US AND CLICKABLE LINK AND DESIGN-->
+            <!--COPYRIGHTS-->
+            <div class="row">
+              <div class="col-lg-12">
+                <h4>FOOTER</h4>
+              </div>
+              <div class="col-lg-12">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </div>
+              <div class="col-lg-12">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </div>
+              <div class="col-lg-12">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </div>
+              <div class="col-lg-12">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </div>
+              <div class="col-lg-12">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </div>
+              <div class="col-lg-12">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </div>
+              <div class="col-lg-12">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </div>
             </div>
+          </div>
         </div>
         <!--END FOOTER SECTION-->
-    </div>
+      </div>
+    </footer>
 
+    <!--JAVASCRIPT BOOTSTRAP EXTERNAL LINK-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!--KAILANGAN NALANG BAGUHIN YUNG DESIGN NG NAVBAR KAPAG NAKA PHONE-->
 
     <!--CONTACT US ON-GOING-->
 
     <!--FOOTER ON-GOING-->
-</body>
+  </body>
 
 </html>
