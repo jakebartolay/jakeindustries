@@ -1,5 +1,3 @@
-<img src="https://github.com/jakebartolay/jakeindustries/assets/68772728/b6f2d693-711c-4e18-ba0f-0e8c183850ff" width="650">
-
 
 # JAKEINDUSTRIES Website(fictional-educational purposes only)
 This website is coded by BEN DEV. This is based on the Stark Industries company and I made it so that I could have experience with a responsive website.
@@ -33,6 +31,6 @@ This website is coded by BEN DEV. This is based on the Stark Industries company 
 
 ## 📫 Connect with me:
 <p align="left">
-<a href = "https://www.facebook.com/customjake"><img src="https://img.icons8.com/?size=512&id=uLWV5A9vXIPu&format=png" height="50px" width="50px"/></a>
+<a href = "https://www.facebook.com/customjake"><img src="https://img.icons8.com/?size=512&id=uLWV5A9vXIPu&format=png" height="45px" width="50px"/></a>
 <a href = "https://github.com/jakebartolay/"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
 </p>
