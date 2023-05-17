@@ -33,7 +33,8 @@
   
 #section1{
     height: 100vh;
-    background-image: url(../img/Haven1_Hero_5_2600x1400_a23f540f5f.jpg);
+    max-width: 100%;
+    background-image: url(../img/earth-background.jpg);
     background-attachment: fixed; 
     background-size: cover;
     background-position: center;
