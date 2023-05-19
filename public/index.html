@@ -94,7 +94,7 @@
     >
       <div id="section1">
         <div class="container-xxl">
-          <div class="mt-md-5 pt-md-5 pb-5 position-absolute bottom-0 start-0">
+          <div class="mt-md-5 pt-md-5 pb-5 position-absolute bottom-0">
             <div class="container-fluid container-xxxl" id="home">
               <div class="row">
                 <div class="col-12 px-md-5">
@@ -105,7 +105,7 @@
                       >
                         <p><span>Latest Sustainability Report</span></p>
                       </div>
-                      <div class="TextLong d-none d-md-block">
+                      <div class="TextLong d-md-block">
                         <p>
                           <span class="display-6 fs-4"
                             >We are advancing aviation, <br> building smarter defense systems and <br> creating innovations to take us deeper into space.</span
@@ -286,7 +286,7 @@
                       <div
                         class="column col-12 d-flex flex-column flex-md-row pl-0 pr-0 pb-0 pb-md-5"
                       >
-                        <a class="text-decoration-none bg-tile" href="#">
+                        <a class="text-decoration-none bg-tile" data-bs-toggle="collapse" href="#airinfo" role="button" aria-expanded="false" aria-controls="collapseExample">
                           <div class="bg-tile">
                             <div class="text-title">
                               <h2>Air</h2>
@@ -298,7 +298,7 @@
                             ></div>
                           </div>
                         </a>
-                        <a class="text-decoration-none bg-tile" href="#">
+                        <a class="text-decoration-none bg-tile" data-bs-toggle="collapse" href="#landinfo" role="button" aria-expanded="false" aria-controls="collapseExample">
                           <div class="bg-tile">
                             <div class="text-title">
                               <h2>Land</h2>
@@ -310,7 +310,7 @@
                             ></div>
                           </div>
                         </a>
-                        <a class="text-decoration-none bg-tile" href="#">
+                        <a class="text-decoration-none bg-tile" data-bs-toggle="collapse" href="#seainfo" role="button" aria-expanded="false" aria-controls="collapseExample">
                           <div class="bg-tile">
                             <div class="text-title">
                               <h2>Sea</h2>
@@ -322,7 +322,7 @@
                             ></div>
                           </div>
                         </a>
-                        <a class="text-decoration-none bg-tile" href="#">
+                        <a class="text-decoration-none bg-tile" data-bs-toggle="collapse" href="#spaceinfo" role="button" aria-expanded="false" aria-controls="collapseExample">
                           <div class="bg-tile">
                             <div class="text-title">
                               <h2>Space</h2>
@@ -334,7 +334,7 @@
                             ></div>
                           </div>
                         </a>
-                        <a class="text-decoration-none bg-tile" href="#">
+                        <!-- <a class="text-decoration-none bg-tile" data-bs-toggle="collapse" href="#cyberinfo" role="button" aria-expanded="false" aria-controls="collapseExample">
                           <div class="bg-tile">
                             <div class="text-title">
                               <h2>Cyber</h2>
@@ -345,72 +345,92 @@
                               style="background-image: url('img/cyber.jpg')"
                             ></div>
                           </div>
-                        </a>
+                        </a> -->
                       </div>
-                      <!-- <div
-                        class="col-lg-12 d-none d-none d-sm-block d-sm-none d-md-none d-lg-block"
-                      >
+                      <div
+                        class="col-lg-12 d-none d-none d-sm-block d-sm-none d-md-none d-lg-none d-xl-block d-xxl-none">
                         <div class="row">
                           <div class="col-12 col-lg-3">
-                            <div>
-                              <div>
+                              <div class="collapse" id="airinfo">
                                 <a href="#"><b>Aeronautics</b></a
-                                >, with approximately $26.9 billion in 2022
+                                >, with approximately $26.9 billion in 2023
                                 sales which includes tactical aircraft, airlift,
                                 sustainment and aeronautical research and
                                 development lines of business.
                               </div>
-                            </div>
                           </div>
-                          <div class="col-12 col-lg-2">
-                            <div>
-                              <div>
+                          <div class="col-12 col-lg-3">
+                            <div class="collapse" id="landinfo">
                                 <a href="#"><b>Missiles and Fire Control</b></a
-                                >, with approximately $11.3 billion in 2022
+                                >, with approximately $11.3 billion in 2023
                                 sales that includes the Terminal High Altitude
                                 Area Defense System and PAC-3 Missiles as some
                                 of its high-profile programs.
                               </div>
-                            </div>
                           </div>
-                          <div class="col-12 col-lg-2">
-                            <div>
-                            <div>
+                          <div class="col-12 col-lg-3">
+                            <div class="collapse" id="seainfo">
                               <a href="#"><b>Rotary and Mission Systems</b></a
-                              >,&nbsp;with approximately $16.1 billion in 2022
+                              >,&nbsp;with approximately $16.1 billion in 2023
                               sales, which includes Stark helicopters, maritime
                               systems, sensors, radar systems, command and
                               control, combat simulation and training, undersea
                               systems and full-spectrum cyber capabilities.
                             </div>
-                          </div>
                         </div>
                         <div class="col-12 col-lg-3">
-                          <div>
-                            <div>
+                          <div class="collapse" id="spaceinfo">
                               <a href="#"><b>Space</b></a
-                              >, with approximately $11.5 billion in 2022 sales
+                              >, with approximately $11.5 billion in 2023 sales
                               which includes development of commercial and
                               government satellites, strategic missiles, mission
                               solutions and the deep space exploration lines of
                               business.
                             </div>
-                          </div>
                         </div>
-                        <div class="col-12 col-lg-3">
-                          <div>
-                            <div>
+                        <!-- <div class="col-12 col-lg-3">
+                          <div class="collapse" id="cyberinfo">
                               <a href="#"><b>Cyber</b></a
                               >, with approximately $11.5 billion in 2022 sales
                               which includes development of commercial and
                               government satellites, strategic missiles, mission
                               solutions and the deep space exploration lines of
                               business.
-                            </div>
                           </div>
+                        </div> -->
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section3-2" id="services" class="col-lg-12 d-none d-none d-sm-block d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+        <div class="container-xxl">
+          <div class="mt-md-5 pt-md-5 pb-5 position-absolute">
+            <div class="container-fluid container-xxxl">
+              <div class="row">
+                <div class="col-12 px-md-5">
+                  <div class="column-card">
+                    <div class="row">
+                      <div class="parent">
+                        <div class="container-fluid">
+                          <h6 class="fw-semibold text-white">[02.1] OUR PROMISE ___</h6>
                         </div>
                       </div>
-                    </div> -->
+                      <div class="child" id="container">
+                      <div
+                      class="col-lg-12 TextShort col-12 d-block"
+                    >
+                      <p><span class="fw-bold fs-5 display-6">It's our identity, our culture, and our promise.</span></p>
+                    </div>
+                      <div>
+                        <a class="actionButton" href="#">Learn More</a>
+                      </div>
+                    </div>
+                    </div>
                   </div>
                 </div>
               </div>

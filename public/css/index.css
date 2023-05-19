@@ -35,8 +35,8 @@
     max-width: 100%;
     background-image: url(../img/earth-background.jpg);
     background-attachment: fixed; 
+    background-position: 50% 70%;
     background-size: cover;
-    background-position: center;
 }
 
 #section2{
@@ -45,6 +45,25 @@
 
 #section3{
     background-color: #f2f2f2;
+}
+
+#section3-2{
+  height: 100vh;
+  max-width: 100%;
+  background-position: 50% 50%;
+  background-image: url(../img/ahead-of-ready-earth.jpg);
+  background-size: cover;
+}
+
+.parent{
+  position: relative;
+  height: 50vh;
+  max-width: 100%;
+}
+
+.child{
+  bottom: 0;
+  max-height: 50px;
 }
 
 #section4{
@@ -212,6 +231,11 @@ a .bg-size-img:hover{
       font-size: 1.6rem;
       font-weight: normal;
     }
+    .TextLong, .fs-4{
+      font-size: 3xp;
+      font-size: calc(1.275rem + -0.7vw)!important;
+    }
+     
 }
 
 @media only screen and (max-width: 653px) {
