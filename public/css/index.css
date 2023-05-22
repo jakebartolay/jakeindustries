@@ -6,19 +6,41 @@
   box-sizing: border-box;
 }
 
-#navbar a {
+/* #navbar a {
   float: left;
   color: black;
 }
 
-#navbar a:hover {
+/* #navbar a:hover {
   color: black;
   border-bottom: 1px solid red;
+} */
+
+#navbar a {
+  --s: 0.1em;   /* the thickness of the line */
+  --c: #1095c1; /* the color */
+  
+  color: #0000;
+  padding-bottom: var(--s);
+  background: 
+    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 0.5s;
+}
+
+#navbar a:hover {
+  --_p: 100%
+}
+
+.left{
+  margin-left: -21%;
 }
 
 #navbar a.active {
-  color: black;
-  border-bottom: 1px solid red;
+  color: #0000;
+  border-bottom: 0.1em solid #1095c1;
 }
 
 #header {
@@ -41,6 +63,34 @@
   background-attachment: fixed;
   background-position: 50% 70%;
   background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.text-darkgray{
+  color: darkgray;
+}
+
+li .a{
+  --s: 0.1em;   /* the thickness of the line */
+  --c: #ffffff; /* the color */
+  
+  color: #ffffff00;
+  padding-bottom: var(--s);
+  background: 
+    linear-gradient(90deg,var(--c) 50%, darkgray 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 0.5s;
+}
+
+li .a:hover{
+  --_p: 100%;
+  text-decoration: none;
+  color: #fff;
 }
 
 .arrow-down {
@@ -112,6 +162,10 @@
 }
 
 #section5 {
+  background-color: #f2f2f2;
+}
+
+#footerbg{
   background-color: #f2f2f2;
 }
 
@@ -263,6 +317,28 @@ a.actionButton {
   border: none;
 }
 
+.carousel-next, .carousel-prev {
+  top: 0;
+  bottom: 0; 
+  z-index: 1; 
+  width: 20%;
+  color: #fff;
+  background: 0 0;
+  border: 0;
+  opacity: .5;
+  transition: opacity .15s ease;
+  cursor: pointer;
+  outline: 0;
+  text-decoration: none;
+}
+
+.carousel-next:focus, .carousel-next:hover, .carousel-prev:focus, .carousel-prev:hover {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+}
+
 .offcanvas-body {
   clip-path: ellipse(425px 417px at 0% 13%);
   background: #f2f2f2;
@@ -367,10 +443,6 @@ a.actionButton {
 }
 
 @media only screen and (max-width: 667px) {
-  #section1 {
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
   .pt-5 {
     display: contents;
   }
@@ -397,8 +469,15 @@ a.actionButton {
   }
 }
 
+@media only screen and (max-width: 767px){
+.border-start {
+    border-left: none;
+}
+}
+
 @media only screen and (max-width: 768px) {
-  .pt-5 {
+  
+  .row .col .pt-5 {
     padding-top: 0 !important;
   }
 }
