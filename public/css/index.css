@@ -376,69 +376,69 @@ a.actionButton {
 @media (min-width: 768px) {
   #contatti .maps iframe {
     width: 100%;
-    height: 950px;
+    height: 400px;
   }
 }
 
 @media (min-width: 778px) {
   #contatti .maps iframe {
     width: 100%;
-    height: 950px;
+    height: 400px;
   }
 }
 
 @media (min-width: 799px) {
   #contatti .maps iframe {
     width: 100%;
-    height: 950px;
+    height: 400px;
   }
 }
 
 @media (min-width: 800px) {
   #contatti .maps iframe {
     width: 100%;
-    height: 950px;
+    height: 400px;
   }
 }
 
 @media (min-width: 820px) {
   #contatti .maps iframe {
-    height: 880px;
+    height: 400px;
     width: 100%;
   }
 }
 
 @media (min-width: 851px) {
   #contatti .maps iframe {
-    height: 880px;
+    height: 400px;
     width: 100%;
   }
 }
 
 @media (min-width: 823px) {
   #contatti .maps iframe {
-    height: 950px;
+    height: 400px;
     width: 100%;
   }
 }
 
 @media (min-width: 965px) {
   #contatti .maps iframe {
-    height: 950px;
+    height: 500px;
     width: 100%;
   }
 }
 
 @media (min-width: 992px) {
   #contatti .maps iframe {
-    height: 740px;
+    height: 400px;
     width: 100%;
   }
 }
 
 @media (min-width: 1180px) {
   #contatti .maps iframe {
-    height: 740px;
+    height: 400px;
     width: 100%;
   }
 }
