@@ -74,6 +74,10 @@ ul {
   color: darkgray;
 }
 
+.text-semogray{
+  color: #6b6868;
+}
+
 li .a{
   --s: 0.1em;   /* the thickness of the line */
   --c: #ffffff; /* the color */
