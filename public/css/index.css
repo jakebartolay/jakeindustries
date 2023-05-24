@@ -157,6 +157,7 @@ li .a:hover{
   background-position: 50% 50%;
   background-image: url(../img/ahead-of-ready-earth.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 #section4 {
