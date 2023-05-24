@@ -362,14 +362,14 @@ a.actionButton {
 @media (max-width: 575.98px) {
   #contatti .maps iframe {
     width: 100%;
-    height: 200px;
+    height: 400px;
   }
 }
 
 @media (min-width: 576px) {
   #contatti .maps iframe {
     width: 100%;
-    height: 450px;
+    height: 400px;
   }
 }
 
@@ -424,7 +424,7 @@ a.actionButton {
 
 @media (min-width: 965px) {
   #contatti .maps iframe {
-    height: 500px;
+    height: 400px;
     width: 100%;
   }
 }
